@@ -1,0 +1,17 @@
+# Day 10 — Linux Networking Commands Used
+# Environment: Kali Linux (VirtualBox, NAT)
+
+# Check active network interfaces and IP addresses
+ip a
+
+# View routing table and default gateway
+ip route
+
+# Test network connectivity using DNS resolution
+ping google.com
+
+# Test connectivity using direct IP address
+ping 8.8.8.8
+
+# List listening ports and active services
+ss -tuln
